@@ -10,12 +10,14 @@ public class PlayerController : MonoBehaviour
     private Animator animator;
     private Vector2 movement;
 
+    public GameManager manager;
 
     public List<Sprite> idles = new List<Sprite>();
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        manager = FindObjectOfType<GameManager>();
     }
 
     void Update()
@@ -40,6 +42,15 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("speed", movement.sqrMagnitude);
 
+    }
+
+
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if(col.gameObject.tag == "Keeper")
+        {
+            manager.StoreKeeper();
+        }
     }
 
 }
