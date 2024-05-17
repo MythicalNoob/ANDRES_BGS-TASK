@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Keeper
+  - Object
+  - Playert
+  - hatluck
+  - witch
+  - grey witch
+  - pumpking
+  - clown
+  - earing
+  - items
   layers:
   - Default
   - TransparentFX
