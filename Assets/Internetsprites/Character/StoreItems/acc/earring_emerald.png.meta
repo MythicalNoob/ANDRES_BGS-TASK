@@ -97,12 +97,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: earring_emerald_0
+      name: earring_emerald_down_0
       rect:
         serializedVersion: 2
         x: 10
         y: 1543
-        width: 3
+        width: 12
         height: 4
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -118,12 +118,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: earring_emerald_1
+      name: earring_emerald_down_1
       rect:
         serializedVersion: 2
-        x: 19
-        y: 1543
-        width: 3
+        x: 42
+        y: 1544
+        width: 12
         height: 4
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -132,8 +132,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5963670932b6ab6438240d63129e0008
-      internalID: -835456044
+      spriteID: a21b015091982514b9a9ec00c7056910
+      internalID: -2038743576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earring_emerald_down_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1545
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d8be2429bc3da479180c12d896d6f3
+      internalID: -614196350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earring_emerald_down_3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1543
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec39d09fa7d7b8e4c9b71247f19cef4d
+      internalID: 659725087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earring_emerald_down_4
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1543
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0c20cc4a053f6429a2922c4d2e598c
+      internalID: 1331780151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earring_emerald_down_5
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1544
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6216a42325206534aa30b0aca20e13b8
+      internalID: -1431898684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earring_emerald_down_6
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1545
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039e430e6f3cf994c928fc5a4f8a8c21
+      internalID: 461901022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: earring_emerald_down_7
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 1543
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2365e47722cd68458b063a9d498cf96
+      internalID: -1856337351
       vertices: []
       indices: 
       edges: []
@@ -149,8 +275,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      earring_emerald_0: -1902149711
       earring_emerald_1: -835456044
+      earring_emerald_down_0: -1902149711
+      earring_emerald_down_1: -2038743576
+      earring_emerald_down_2: -614196350
+      earring_emerald_down_3: 659725087
+      earring_emerald_down_4: 1331780151
+      earring_emerald_down_5: -1431898684
+      earring_emerald_down_6: 461901022
+      earring_emerald_down_7: -1856337351
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

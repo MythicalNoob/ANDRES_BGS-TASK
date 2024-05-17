@@ -105,7 +105,7 @@ TextureImporter:
         width: 16
         height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -113,6 +113,27 @@ TextureImporter:
       bones: []
       spriteID: 412ea4684e23db54c95d3954ff6d4c85
       internalID: 1134563123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_cowboy_back
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1516
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53eaefac8481cc340a4268ce5e9b6498
+      internalID: -188812508
       vertices: []
       indices: 
       edges: []
@@ -129,6 +150,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       hat_cowboy_0: 1134563123
+      hat_cowboy_back: -188812508
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

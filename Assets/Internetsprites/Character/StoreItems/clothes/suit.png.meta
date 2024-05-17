@@ -105,7 +105,7 @@ TextureImporter:
         width: 14
         height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -113,6 +113,48 @@ TextureImporter:
       bones: []
       spriteID: 1b366539bdc3fc34a80cd18debdfe767
       internalID: -722803158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suit_down_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1539
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee5587409dce1145aaea0d4a4dbd4e4
+      internalID: -1627351118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: suit_back
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1507
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12d518b9ef54664d8d9def4c413ed08
+      internalID: 2146674779
       vertices: []
       indices: 
       edges: []
@@ -129,6 +171,8 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       suit_0: -722803158
+      suit_back: 2146674779
+      suit_down_0: -1627351118
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

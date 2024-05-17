@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pants_0
+      name: pants_brown_down_0
       rect:
         serializedVersion: 2
         x: 780
@@ -105,7 +105,7 @@ TextureImporter:
         width: 8
         height: 3
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -113,6 +113,27 @@ TextureImporter:
       bones: []
       spriteID: 20df74b03e542714ba14a4f8adbc2bcf
       internalID: -738205204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pants_purrple_down_0
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 1537
+        width: 8
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858b4334e4c15b8458cff73e1cad50dd
+      internalID: 862042302
       vertices: []
       indices: 
       edges: []
@@ -128,7 +149,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pants_0: -738205204
+      pants_brown_down_0: -738205204
+      pants_purrple_down_0: 862042302
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

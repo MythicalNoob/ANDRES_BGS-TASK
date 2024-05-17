@@ -13,6 +13,7 @@ TagManager:
   - pumpking
   - clown
   - earing
+  - items
   layers:
   - Default
   - TransparentFX

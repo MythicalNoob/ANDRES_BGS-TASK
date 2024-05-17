@@ -105,7 +105,7 @@ TextureImporter:
         width: 16
         height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -113,6 +113,27 @@ TextureImporter:
       bones: []
       spriteID: 4f2e62a8e14c58e4099f299f7a39a523
       internalID: 1131162781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hat_lucky_back
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1516
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea097f4a47c50443bd42461bcc3809d
+      internalID: -1545777055
       vertices: []
       indices: 
       edges: []
@@ -129,6 +150,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       hat_lucky_0: 1131162781
+      hat_lucky_back: -1545777055
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
