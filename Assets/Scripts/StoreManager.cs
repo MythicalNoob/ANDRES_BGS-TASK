@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-using Microsoft.Unity.VisualStudio.Editor;
 
 public class StoreManager : MonoBehaviour
 {
@@ -506,7 +505,7 @@ public class StoreManager : MonoBehaviour
             Button[] buttons = rootObject.GetComponentsInChildren<Button>(true);
             foreach (Button btn in buttons)
             {
-                if (btn.CompareTag("items")) // Asegúrate de que los botones tengan esta etiqueta
+                if (btn.CompareTag("items")) 
                 {
                     StorageHolders.Add(btn);
                 }

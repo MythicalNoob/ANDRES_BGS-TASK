@@ -6,31 +6,32 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed = 5f; // Velocidad de movimiento del jugador
     public List<Sprite> items = new List<Sprite>();
     public List<GameObject> clothes = new List<GameObject>();
     public List<Button> inventory = new List<Button>();
-    public bool[] inventorySpace = new bool[9] { false, false, false, false, false, false, false, false, false };
+    public List<Sprite> idles = new List<Sprite>();
+    public TextMeshProUGUI innervoice;
+    public Button sell;
+    public Button close;
+    public GameObject innervoicePanel;
+    public GameObject buttons;
     private Rigidbody2D rb;
     private Animator animator;
     private Vector2 movement;
-    public Button sell;
-    public Button close;
-
-    int itemBoughtID = 0;
-    private int[] inventoryIDs = new int[9] { 0,0,0,0,0,0,0,0,0 };
-    GameManager manager;
-    bool alreadyAdded = false;  
-    public List<Sprite> idles = new List<Sprite>();
+    public float moveSpeed = 5f; 
+    public int spaceSell;
+    public bool[] inventorySpace = new bool[9] { false, false, false, false, false, false, false, false, false };
 
     public static bool didBuy = false;
 
-    public TextMeshProUGUI innervoice;
-    public GameObject buttons;
-    public GameObject innervoicePanel;
-    public int spaceSell;
-
+    int itemBoughtID = 0;
     int myID = 0;
+    private int[] inventoryIDs = new int[9] { 0,0,0,0,0,0,0,0,0 };
+    GameManager manager;
+    bool alreadyAdded = false;  
+
+
+
 
     string[] IDsText = new string[11] {
         "Cowboy hat - 1.99",
@@ -67,13 +68,11 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        // Obtener el input del jugador
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
 
         Debug.Log(movement.sqrMagnitude + "el movimiento o speed");
 
-        // Normalizar el vector de movimiento para evitar movimientos diagonales más rápidos
         movement = new Vector2(moveX, moveY).normalized;
 
         if(didBuy == true)
@@ -543,7 +542,6 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        // Mover al jugador basado en el vector de movimiento
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
 
         animator.SetFloat("Horizontal", movement.x);

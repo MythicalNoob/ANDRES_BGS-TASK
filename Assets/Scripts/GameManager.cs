@@ -17,14 +17,14 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI keepersvoice;
     
     public static int itemID = 0;
-
-    [SerializeField]
-    public static int[] IDs = new int[11] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 };
     public static int maxInventoryItems = 9;
     public static int itemsBought = 0;
+    public static bool didSell = false;
+
+    [HideInInspector]
+    public static int[] IDs = new int[11] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 };
 
     int myitems = 0;
-    public static bool didSell = false;
 
     void Start()
     {
